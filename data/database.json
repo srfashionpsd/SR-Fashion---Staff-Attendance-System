@@ -1,0 +1,165 @@
+{
+  "users": [
+    {
+      "id": "usr_admin",
+      "username": "admin",
+      "name": "SR Fashion Admin",
+      "role": "admin",
+      "createdAt": "2026-10-07T11:20:13.483Z"
+    },
+    {
+      "id": "usr_operator",
+      "username": "operator",
+      "name": "Attendance Operator",
+      "role": "operator",
+      "createdAt": "2026-10-07T11:20:13.484Z"
+    }
+  ],
+  "userPasswords": {
+    "usr_admin": "240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9",
+    "usr_operator": "6a3ef924cb19135103c1e5697a04a926209911a8cd45734773fac25454e691a0"
+  },
+  "employees": [],
+  "shifts": [
+    {
+      "id": "shift_default",
+      "name": "Standard Shift (12 PM - 10 PM)",
+      "startTime": "12:00",
+      "endTime": "22:00",
+      "graceInMinutes": 15,
+      "graceOutMinutes": 15,
+      "isDefault": true
+    }
+  ],
+  "attendance": [],
+  "adjustments": [],
+  "leaves": [],
+  "holidays": [
+    {
+      "id": "hol_01",
+      "date": "2026-03-21",
+      "name": "Eid-ul-Fitr",
+      "type": "festival",
+      "notes": "Annual Festival Closure"
+    },
+    {
+      "id": "hol_02",
+      "date": "2026-05-28",
+      "name": "Eid-ul-Adha",
+      "type": "festival",
+      "notes": "Annual Festival Closure"
+    },
+    {
+      "id": "hol_03",
+      "date": "2026-08-15",
+      "name": "Independence Day",
+      "type": "festival",
+      "notes": "National Holiday"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "aud_init_clean",
+      "adminName": "SR Fashion Admin",
+      "action": "Staff Roster Reset",
+      "date": "2026-10-07",
+      "originalValue": "Sample data cleared",
+      "newValue": "0 employees registered",
+      "reason": "All staff removed by administrator to prepare system for live store staff registration",
+      "timestamp": "2026-10-07T11:36:00.000Z"
+    },
+    {
+      "adminName": "SR Fashion Admin",
+      "action": "Employee Added",
+      "employeeId": "emp_1791373284945",
+      "employeeName": "Test Staff",
+      "date": "2026-10-07",
+      "newValue": "ID: SR-001, Barcode: SRF001",
+      "reason": "New employee registered",
+      "id": "aud_1791373284945_qvkg",
+      "timestamp": "2026-10-07T11:41:24.945Z"
+    },
+    {
+      "adminName": "SR Fashion Admin",
+      "action": "Employee Deleted",
+      "employeeId": "emp_1791373284945",
+      "employeeName": "Test Staff",
+      "date": "2026-10-07",
+      "originalValue": "ID: SR-001, Barcode: SRF001",
+      "reason": "Employee permanently removed by admin",
+      "id": "aud_1791373292777_wdb2",
+      "timestamp": "2026-10-07T11:41:32.777Z"
+    },
+    {
+      "adminName": "SR Fashion Admin",
+      "action": "Employee Added",
+      "employeeId": "emp_1791374005648",
+      "employeeName": "Aarav Sharma",
+      "date": "2026-10-07",
+      "newValue": "ID: SR-201, Barcode: SRF201",
+      "reason": "New employee registered",
+      "id": "aud_1791374005649_q6ja",
+      "timestamp": "2026-10-07T11:53:25.649Z"
+    },
+    {
+      "adminName": "SR Fashion Admin",
+      "action": "Employee Deleted",
+      "employeeId": "emp_1791374005648",
+      "employeeName": "Aarav Sharma",
+      "date": "2026-10-07",
+      "originalValue": "ID: SR-201, Barcode: SRF201",
+      "reason": "Employee permanently removed by admin",
+      "id": "aud_1791374028269_8e8p",
+      "timestamp": "2026-10-07T11:53:48.269Z"
+    },
+    {
+      "adminName": "SR Fashion Admin",
+      "action": "Holiday Declared",
+      "date": "2026-12-25",
+      "newValue": "Christmas (festival)",
+      "reason": "Holiday declared by admin",
+      "id": "aud_1791374050574_m135",
+      "timestamp": "2026-10-07T11:54:10.574Z"
+    },
+    {
+      "adminName": "SR Fashion Admin",
+      "action": "Holiday Removed",
+      "date": "2026-12-25",
+      "originalValue": "Christmas",
+      "reason": "Holiday removed by admin",
+      "id": "aud_1791374061100_git3",
+      "timestamp": "2026-10-07T11:54:21.100Z"
+    },
+    {
+      "adminName": "SR Fashion Admin",
+      "action": "Employee Added",
+      "employeeId": "emp_1791375100611",
+      "employeeName": "Ayesha Shaikh",
+      "date": "2026-10-07",
+      "newValue": "ID: SR-101, Barcode: SRF101",
+      "reason": "New employee registered",
+      "id": "aud_1791375100612_zp91",
+      "timestamp": "2026-10-07T12:11:40.612Z"
+    },
+    {
+      "adminName": "SR Fashion Admin",
+      "action": "Employee Deleted",
+      "employeeId": "emp_1791375100611",
+      "employeeName": "Ayesha Shaikh",
+      "date": "2026-10-07",
+      "originalValue": "ID: SR-101, Barcode: SRF101",
+      "reason": "Employee permanently removed by admin",
+      "id": "aud_1791375103257_b8xv",
+      "timestamp": "2026-10-07T12:11:43.257Z"
+    }
+  ],
+  "settings": {
+    "shopName": "SR Fashion",
+    "tagline": "Sabki Pasand SR Fashion",
+    "address": "Eidgah Kaman Road, Near Dabak Pul, Degloor Naka, Nanded",
+    "phone": "7588756669",
+    "instagram": "@srfashion_nanded",
+    "timezone": "Asia/Kolkata",
+    "defaultShiftId": "shift_default"
+  }
+}

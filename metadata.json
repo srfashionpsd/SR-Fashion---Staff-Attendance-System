@@ -1,0 +1,8 @@
+{
+  "name": "SR Fashion - Staff Attendance System",
+  "description": "Official staff attendance management system for SR Fashion, Nanded. Featuring Face Attendance, ID Card Barcode Attendance, strict IN/OUT shift rules, admin review, and WhatsApp summaries.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
